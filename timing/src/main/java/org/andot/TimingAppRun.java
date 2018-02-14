@@ -10,8 +10,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 @ComponentScan("org.andot.timing")
-public class AppController {
+public class TimingAppRun {
     public static void main(String[] args) {
-        SpringApplication.run(AppController.class, args);
+        SpringApplication.run(TimingAppRun.class, args);
     }
 }

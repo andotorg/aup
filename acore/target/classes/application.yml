@@ -1,0 +1,27 @@
+server:
+  port: 8081
+andot:
+  aip: 192.168.10.239
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/webpage/
+      suffix: .jsp
+  dataSource: #数据源
+    mysql:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/aup?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: andot
+      initialSize: 50
+      maxActive: 100
+      maxWait: 80
+      validationQuery: SELECT 1
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 7200
+      removeAbandoned: true
+      removeAbandonedTimeout: 1800
+      defaultAutoCommit: true
+      logAbandoned: true

@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="acore" />
+        <module name="ais" />
         <module name="timing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="acore" target="1.8" />
+      <module name="ais" target="1.8" />
       <module name="aup" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="test" target="1.8" />
       <module name="timing" target="1.8" />
     </bytecodeTargetLevel>
   </component>

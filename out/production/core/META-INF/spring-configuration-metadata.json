@@ -1,0 +1,12 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.andot.core.dso.MyBatisDataSourceByMySQL",
+      "name": "spring.dataSource.mysql1",
+      "sourceMethod": "dataSourceMySql()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

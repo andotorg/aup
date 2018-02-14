@@ -10,6 +10,8 @@
     <version>201702</version>
     <modules>
         <module>timing</module>
+        <module>ais</module>
+        <module>acore</module>
     </modules>
 
     <parent>
@@ -75,6 +77,42 @@
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-mapper-asl</artifactId>
             <version>1.9.13</version>
+        </dependency>
+
+        <!-- add beanutils,
+      		explain: a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.
+			Java中类的Java实用程序类的包。lang的层次结构，或被认为是标准的，以证明存在于java.lang中。-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <!-- add beanutils,
+            explain: provides an easy-to-use but flexible wrapper around reflection and introspection.
+            提供了一种易于使用但灵活的包装器，可以反射和内省。-->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.7.0</version>
+        </dependency>
+        <!-- add commons-logging, explain: log4j. -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.3</version>
+        </dependency>
+        <!-- add commons-collections,
+            explain: contains types that extend and augment the Java Collections Framework.
+            包含扩展和扩充Java集合框架的类型。 -->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
         </dependency>
     </dependencies>
 

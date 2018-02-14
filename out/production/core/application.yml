@@ -1,0 +1,4 @@
+server:
+  port: 8081
+andot:
+  aip: 192.168.10.239

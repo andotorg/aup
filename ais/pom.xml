@@ -11,5 +11,12 @@
 
     <artifactId>ais</artifactId>
 
+    <dependencies>
 
+
+    </dependencies>
+
+    <build>
+        <finalName>ais</finalName>
+    </build>
 </project>

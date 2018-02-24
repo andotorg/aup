@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
-@ComponentScan("org.andot.core")
+@ComponentScan("org.andot")
 public class CoreAppRun {
 
     private static Logger log = LoggerFactory.getLogger(CoreAppRun.class);

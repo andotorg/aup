@@ -2,7 +2,7 @@
   "hints": [],
   "groups": [
     {
-      "sourceType": "org.andot.core.dso.MyBatisDataSourceByMySQL",
+      "sourceType": "org.andot.core.dso.impl.MyBatisDataSourceByMySQL",
       "name": "spring.dataSource.mysql",
       "sourceMethod": "dataSourceMySql()",
       "type": "javax.sql.DataSource"

@@ -7,13 +7,15 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
+@EnableTransactionManagement
 @ComponentScan("org.andot")
-public class CoreAppRun {
+public class CoreApplication {
 
-    private static Logger log = LoggerFactory.getLogger(CoreAppRun.class);
+    private static Logger log = LoggerFactory.getLogger(CoreApplication.class);
 
     public static void main(String[] args) {
         if(args.length > 0){
@@ -22,6 +24,6 @@ public class CoreAppRun {
             }
         }else
             log.error("not write param");
-        SpringApplication.run(CoreAppRun.class, args);
+        SpringApplication.run(CoreApplication.class, args);
     }
 }

@@ -25,3 +25,6 @@ spring:
       removeAbandonedTimeout: 1800
       defaultAutoCommit: true
       logAbandoned: true
+logging:
+  file: = ../../aup.log
+

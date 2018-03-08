@@ -66,7 +66,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.5.10.RELEASE</version>
                 <configuration><!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>org.andot.CoreAppRun</mainClass>
+                    <mainClass>org.andot.CoreApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>
